@@ -1,0 +1,55 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img {
+  width: 100%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+  height: 50px;
+  background-color: lightgrey;
+  top: 0;
+  text-align: left;
+}
+
+  .inline-block {
+    padding: 15px;
+    display: inline-block;
+  }
+  .left {
+    float: left;
+    height: 1000px;
+    background-color: lightblue;
+    width: 30%;
+    text-align: center;
+  }
+  .right {
+    float: left;
+    background-color: lightgoldenrodyellow;
+    height: 1000px;
+    width: 70%;
+    text-align: center;
+  }
+  
+  .card {
+    width: 30%;
+    display: inline-block;
+    margin-top: 50px;
+  }
+  
+  .image {
+    width: 200px;
+    background-image: url("../images/dog2.jpeg");
+    padding: 200px;
+    background-repeat: no-repeat;
+  }
